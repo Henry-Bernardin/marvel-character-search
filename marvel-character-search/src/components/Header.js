@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../img/marvel-comics-logo.png'
 
-const Header = () => {
+const header = () => {
     return (
         <header className='center'>
             <img src={logo} alt='' />
@@ -9,4 +9,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default header
