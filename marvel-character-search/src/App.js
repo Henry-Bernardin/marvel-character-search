@@ -6,8 +6,18 @@ import Header from './components/Header';
 const App = () => {
   const [characters, setCharacters] = useState([])
   const [isLoading, setIsLoading] = useState(true)
-  
- 
+
+useEffect(() => {
+  const fetchItems = async () => {
+    const result = await axios(
+      `http(s)://gateway.marvel.com/characters`
+    )
+
+    console.log(result.data)
+  }
+
+  fetchItems()
+}, [])
 
 
   return ( 
