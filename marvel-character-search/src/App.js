@@ -19,7 +19,6 @@ useEffect(() => {
   fetchItems()
 }, [])
 
-
   return ( 
   <div className="container"> 
   <Header />
