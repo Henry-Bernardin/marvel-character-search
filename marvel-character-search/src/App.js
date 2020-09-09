@@ -16,6 +16,7 @@ useEffect(() => {
     console.log(result.data)
   }
 
+  
   fetchItems()
 }, [])
 
