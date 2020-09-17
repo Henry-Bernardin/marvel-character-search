@@ -12,7 +12,7 @@ useEffect(() => {
     const result = await axios(
       `http(s)://gateway.marvel.com/characters`
     )
-
+//Fetch the api
     console.log(result.data)
   }
 
