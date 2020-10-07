@@ -11,7 +11,7 @@ useEffect(() => {
   const fetchItems = async () => {
     const pubkey = "1141818520a744bbba8827740c0b78e7"
     const result = await axios(
-      `http(s)://gateway.marvel.com/characters`
+      `http://gateway.marvel.com/characters`
     )
     
     console.log(result.data)
