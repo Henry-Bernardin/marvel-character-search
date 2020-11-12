@@ -13,7 +13,6 @@ useEffect(() => {
     const result = await axios(
       `http://gateway.marvel.com/characters`
     )
-    
     console.log(result.data)
   }
 
