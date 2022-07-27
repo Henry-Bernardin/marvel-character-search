@@ -6,7 +6,7 @@ import Header from './components/Header';
 const App = () => {
   const [characters, setCharacters] = useState([])
   const [isLoading, setIsLoading] = useState(true)
-
+//API
 useEffect(() => {
   const fetchItems = async () => {
     const pubkey = "1141818520a744bbba8827740c0b78e7"
